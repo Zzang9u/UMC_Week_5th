@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LoginControl from "./LoginControl";
 
 function Header(){
     return(
@@ -42,6 +43,7 @@ function Header(){
             }}>
             인물
         </Link>
+        <LoginControl/>
     </div>
     );
 }
